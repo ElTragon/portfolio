@@ -1,6 +1,6 @@
 import css from "./index.module.css";
 
-const HomePage = (): JSX.Element => {
+const Introduction = (): JSX.Element => {
   return (
     <div className={css.mainContainer}>
       <p>It&apos;s a me,</p>
@@ -15,4 +15,4 @@ const HomePage = (): JSX.Element => {
   );
 };
 
-export default HomePage;
+export default Introduction;
