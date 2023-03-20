@@ -1,0 +1,4 @@
+.mainContainer{
+    @apply flex-col m-auto;
+}
+
