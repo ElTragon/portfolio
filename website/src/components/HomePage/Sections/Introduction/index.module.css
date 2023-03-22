@@ -1,4 +1,24 @@
-.mainContainer{
-    @apply flex-col m-auto;
+.container{
+    @apply flex items-start flex-col m-auto px-10 text-left;
 }
 
+.container p {
+    @apply text-gray-300;
+}
+
+
+.container h1 {
+    @apply text-5xl font-mono font-bold text-red-600 leading-tight animate-pulse;
+}
+
+.container h2 {
+    @apply text-3xl font-normal text-gray-400;
+}
+
+.container h3 {
+    @apply text-lg font-normal text-gray-500;
+}
+
+.fadeIn{
+    /* TODO: fade in after load in */
+}
