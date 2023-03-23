@@ -1,5 +1,5 @@
 .container{
-    @apply flex items-start flex-col m-auto px-10 text-left;
+    @apply flex items-start flex-col text-left mt-28;
 }
 
 .container p {
@@ -8,7 +8,7 @@
 
 
 .container h1 {
-    @apply text-5xl font-mono font-bold text-red-600 leading-tight animate-pulse;
+    @apply text-5xl font-mono font-bold text-red-600 leading-tight;
 }
 
 .container h2 {

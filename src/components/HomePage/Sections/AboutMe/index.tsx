@@ -24,18 +24,18 @@ const AboutMe = (): JSX.Element => {
         Heres a short list of a few technologies I been working with recently
       </p>
 
-        <div className={css.techContainer}>
-            <ul>
-                <li>Javascript</li>
-                <li>React</li>
-                <li>Python</li>
-            </ul>
-            <ul>
-                <li>Typescript</li>
-                <li>NextJS</li>
-                <li>Golang</li>
-            </ul>
-        </div>
+      <div className={css.techContainer}>
+        <ul>
+          <li className={css.redText}>Javascript</li>
+          <li className={css.redText}>React</li>
+          <li className={css.redText}>Python</li>
+        </ul>
+        <ul>
+          <li className={css.redText}>Typescript</li>
+          <li className={css.redText}>NextJS</li>
+          <li className={css.redText}>Golang</li>
+        </ul>
+      </div>
     </div>
   );
 };

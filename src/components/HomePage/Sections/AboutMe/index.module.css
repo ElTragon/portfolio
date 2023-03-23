@@ -1,14 +1,15 @@
 .container{
-    @apply flex items-start flex-col m-auto px-10 text-left;
+    @apply flex items-start flex-col text-left mt-28;
+    
 }
 
 .container p {
-    @apply text-gray-300;
+    @apply text-gray-300 mt-10;
 }
 
 
 .container h1 {
-    @apply text-5xl font-mono font-bold text-red-600 leading-tight animate-pulse;
+    @apply text-5xl font-mono font-bold text-red-600 leading-tight;
 }
 
 .container h2 {
@@ -19,6 +20,14 @@
     @apply text-lg font-normal text-gray-500;
 }
 
-.fadeIn{
-    /* TODO: fade in after load in */
+.techContainer{
+    @apply text-red-600 flex flex-row justify-around gap-16 mt-4;
+}
+
+.techContainer li{
+    @apply before:inline-block before:w-1.5 before:h-1.5 before:mr-4 before:bottom-1 before:relative before:bg-red-800 before:rounded-full text-red-600;
+}
+
+.redText{
+    @apply text-red-700;
 }
