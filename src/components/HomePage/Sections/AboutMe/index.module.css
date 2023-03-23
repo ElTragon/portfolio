@@ -7,19 +7,6 @@
     @apply text-gray-300 mt-10;
 }
 
-
-.container h1 {
-    @apply text-5xl font-mono font-bold text-red-600 leading-tight;
-}
-
-.container h2 {
-    @apply text-3xl font-normal text-gray-400;
-}
-
-.container h3 {
-    @apply text-lg font-normal text-gray-500;
-}
-
 .techContainer{
     @apply text-red-600 flex flex-row justify-around gap-16 mt-4;
 }
