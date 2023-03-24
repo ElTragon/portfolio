@@ -1,3 +1,7 @@
 .number{
     @apply text-red-600 ;
 }
+
+.title{
+    @apply text-3xl font-normal text-gray-400;
+}

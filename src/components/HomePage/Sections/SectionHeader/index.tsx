@@ -7,7 +7,7 @@ type Props = {
 
 const SectionHeader = ({ num, title }: Props): JSX.Element => {
   return (
-    <h2>
+    <h2 className={css.title}>
       <span className={css.number}>{num}. </span>
       {title}
     </h2>

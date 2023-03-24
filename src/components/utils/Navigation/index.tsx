@@ -6,17 +6,17 @@ export default function Navigation() {
       <div>
         <div className={css.linkContainer}>
           <a href="#AboutMe" className={css.link}>
-            About Me
+            <span className={css.number}>01. </span>About Me
           </a>
           <a href="#Experience" className={css.link}>
-            Experience
+            <span className={css.number}>02. </span>Experience
           </a>
 
           <a href="#Contact" className={css.link}>
-            Contact
+            <span className={css.number}>03. </span>Contact
           </a>
-          <a href="#Blog" className={css.link}>
-            Blog
+          <a href="/blog" className={css.link}>
+            <span className={css.number}>04. </span>Blog
           </a>
         </div>
 
