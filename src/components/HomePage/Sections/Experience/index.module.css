@@ -1,0 +1,24 @@
+.container{
+    @apply flex items-start flex-col text-left mt-28;
+    
+}
+
+.workHistory{
+    @apply flex flex-row;
+}
+
+.roles{
+    @apply flex flex-col;
+}
+
+.currentRole{
+    @apply flex flex-col;
+}
+
+.redText{
+    @apply text-red-700;
+}
+
+.bulletPoint{
+    @apply text-red-700 text-lg;
+}
