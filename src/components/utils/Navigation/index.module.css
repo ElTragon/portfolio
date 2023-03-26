@@ -1,9 +1,9 @@
 .navContainer{
-    @apply flex items-center justify-between flex-wrap pt-6 w-full flex-grow lg:flex lg:items-center;
+    @apply flex justify-end flex-wrap pt-0 w-full flex-grow items-end lg:items-center pr-12;
 }
 
 .linkContainer{
-    @apply flex text-sm lg:flex-grow text-gray-400;
+    @apply flex text-sm lg:flex-grow text-gray-400 justify-end pr-8 gap-4;
 }
 
 .active{
@@ -11,7 +11,7 @@
 }
 
 .link{
-    @apply block mt-4 lg:inline-block lg:mt-0 hover:text-red-400 mr-4
+    @apply block mt-4 lg:inline-block lg:mt-0 hover:underline mr-4
 }
 
 .resume {
