@@ -1,15 +1,18 @@
 import { useState } from "react";
 import SectionHeader from "../SectionHeader";
 import css from "./index.module.css";
+import cx from "classnames";
 
 type ExperienceType = {
   companyName: string;
+  role: string;
   bulletPoints: string[];
 };
 
 const pastRoles: ExperienceType[] = [
   {
     companyName: "Dolthub",
+    role: "Software Engineer",
     bulletPoints: [
       "Built numerous full-stack projects with a GoLang stack from Schema to UI including adding a teams feature",
       "Took on UI projects including redesign of the homepage and pricing page for HostedDolt",
@@ -19,6 +22,7 @@ const pastRoles: ExperienceType[] = [
   },
   {
     companyName: "Amgen",
+    role: "Associate Engineer",
     bulletPoints: [
       "Supported and delivered features on multiple in house web-app",
       "Built and delivered a new in house web-app to visualize and manage a internal business practice",
@@ -28,6 +32,7 @@ const pastRoles: ExperienceType[] = [
   },
   {
     companyName: "HelloAdvisr",
+    role: "Jr. Developer",
     bulletPoints: [
       "Built a business financial advisor web app from scratch.",
       "Took part in designing the database, UI, screens, and features.",
@@ -52,6 +57,9 @@ const Experience = (): JSX.Element => {
             <button
               key={role.companyName}
               onClick={() => setSelectedRole(role)}
+              className={cx(css.role, {
+                [css.activeRole]: role.companyName === selectedRole.companyName,
+              })}
             >
               {role.companyName}
             </button>

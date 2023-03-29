@@ -17,7 +17,6 @@ const AboutMe = (): JSX.Element => {
         Fast-forward to today, I have had the honor to work at Fintech,
         Pharmaceutical, and Database companies. Now I days I am looking for the
         next step in my career to build responsive and reliable products.
-        whenever I can.
       </p>
 
       <p>

@@ -1,24 +1,29 @@
 .container{
-    @apply flex items-start flex-col text-left mt-28;
+    @apply flex items-start flex-col text-left mt-28 h-72;
     
 }
 
 .workHistory{
-    @apply flex flex-row;
+    @apply flex flex-row ;
 }
 
 .roles{
-    @apply flex flex-col;
+    @apply flex flex-col border-l-2 h-36 mt-2;
+}
+
+.role{
+    @apply py-3 px-4 text-base font-mono text-left relative right-0.5;
 }
 
 .currentRole{
-    @apply flex flex-col;
+    @apply flex flex-col mt-2 pl-4;
 }
 
-.redText{
-    @apply text-red-700;
+.activeRole{
+    @apply text-red-500 border-l-2 border-red-600 z-10;
+/* Make transition */
 }
 
 .bulletPoint{
-    @apply text-red-700 text-lg;
+    @apply text-red-600 text-lg;
 }
