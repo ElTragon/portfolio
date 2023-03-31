@@ -1,0 +1,24 @@
+.container{
+    @apply flex items-start flex-col text-left mt-28;
+    
+}
+
+.container p {
+    @apply text-gray-300 mt-10;
+}
+
+.techContainer{
+    @apply text-red-600 flex flex-row justify-around gap-16 mt-4;
+}
+
+.techContainer li{
+    @apply before:inline-block before:w-1.5 before:h-1.5 before:mr-4 before:bottom-1 before:relative before:bg-red-800 before:rounded-full text-red-600;
+}
+
+.redText{
+    @apply text-red-700;
+}
+
+.button{
+    @apply border-2 border-red-700 text-red-600 font-mono hover:text-red-400;
+}
